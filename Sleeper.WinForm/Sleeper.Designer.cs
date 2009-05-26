@@ -83,7 +83,6 @@
         private System.Windows.Forms.Button exit_btn;
         private System.Windows.Forms.ProgressBar sleepProgress;
         private System.Windows.Forms.RichTextBox alertText;
-
     }
 }
 

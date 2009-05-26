@@ -1,19 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Sleeper.WinForm
 {
     public partial class Sleeper : Form
     {
-        private static int TIMER_INTERVAL = 1000; // 1 second
-        private static int TIMER_MAX = 5 * 60 * 1000; // 5 mins
-        private long totalTimeInMillis = 0;
+        private long _totalTimeInMillis;
+        private const int TimerInterval = 1000; // 1 second
+        private const int TimerMax = 5 * 60 * 1000; // 5 mins
 
         public Sleeper()
         {
@@ -22,8 +16,8 @@ namespace Sleeper.WinForm
 
         private void Sleeper_Load(object sender, EventArgs e)
         {
-            setupProgressBar();
-            createTimer();
+            SetupProgressBar();
+            CreateTimer();
         }
 
         private void exit_btn_Click(object sender, EventArgs e)
@@ -31,29 +25,28 @@ namespace Sleeper.WinForm
             Application.Exit();
         }
 
-        private void setupProgressBar()
+        private void SetupProgressBar()
         {
             sleepProgress.Minimum = 0;
-            sleepProgress.Maximum = TIMER_MAX;
-            sleepProgress.Step = TIMER_INTERVAL;
+            sleepProgress.Maximum = TimerMax;
+            sleepProgress.Step = TimerInterval;
             sleepProgress.Value = 0;
         }
 
-        private void createTimer()
+        private void CreateTimer()
         {
-            Timer sleepTimer = new Timer();
-            sleepTimer.Interval = TIMER_INTERVAL;
-            sleepTimer.Tick += new EventHandler(timerUpdate);
+            var sleepTimer = new Timer {Interval = TimerInterval};
+            sleepTimer.Tick += TimerUpdate;
             sleepTimer.Start();
         }
 
-        private void timerUpdate(object sender, EventArgs e)
+        private void TimerUpdate(object sender, EventArgs e)
         {
-            totalTimeInMillis += TIMER_INTERVAL;
-            if (totalTimeInMillis > TIMER_MAX)
+            _totalTimeInMillis += TimerInterval;
+            if (_totalTimeInMillis > TimerMax)
             {
                 // trigger sleep
-                Win32ApiHelper.doSuspeng();
+                Win32ApiHelper.DoSuspeng();
                 Application.Exit();
             }
             else

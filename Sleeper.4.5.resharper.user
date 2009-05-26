@@ -1,0 +1,38 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="291" fromTop="9" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Program.cs" caret="13" fromTop="0" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="62" fromTop="3" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="0" fromTop="0" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="291" fromTop="9" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="13" fromTop="0" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="3498" fromTop="85" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="3475" fromTop="84" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="676" fromTop="27" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1117" fromTop="37" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="163" fromTop="7" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1033" fromTop="14" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Program.cs" caret="13" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

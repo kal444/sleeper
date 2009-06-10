@@ -11,10 +11,12 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="291" fromTop="9" />
+      <File id="57F94B4B-B0A9-4946-874F-FC1990DB8114/f:Program.cs" caret="291" fromTop="10" />
+      <File id="57F94B4B-B0A9-4946-874F-FC1990DB8114/f:Win32ApiHelper.cs" caret="0" fromTop="0" />
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Program.cs" caret="13" fromTop="0" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="291" fromTop="9" />
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="62" fromTop="3" />
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="0" fromTop="0" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="183" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Win32ApiHelper.cs" caret="0" fromTop="0" />
@@ -22,11 +24,13 @@
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="13" fromTop="0" />
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="3498" fromTop="85" />
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.Designer.cs" caret="3475" fromTop="84" />
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="676" fromTop="27" />
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1117" fromTop="37" />
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="163" fromTop="7" />
-      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1033" fromTop="14" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="805" fromTop="27" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1246" fromTop="37" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="292" fromTop="7" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="1162" fromTop="14" />
       <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Program.cs" caret="13" fromTop="0" />
+      <File id="57F94B4B-B0A9-4946-874F-FC1990DB8114/f:Program.cs" caret="290" fromTop="10" />
+      <File id="E58CF4F4-3E10-4549-95C7-6BECF02A1200/f:Sleeper.cs" caret="183" fromTop="6" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>

@@ -3,6 +3,9 @@ using System.Windows.Forms;
 
 namespace Sleeper.WinForm
 {
+    /// <summary>
+    /// simple program to display a progress bar as the computer prepares to go to sleep
+    /// </summary>
     public partial class Sleeper : Form
     {
         private long _totalTimeInMillis;

@@ -7,6 +7,9 @@ using System.Management;
 
 namespace Sleeper.ConsoleApp
 {
+    /// <summary>
+    /// Tester program to try out a few things related to suspend/wake on windows
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
